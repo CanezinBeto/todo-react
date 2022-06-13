@@ -1,4 +1,4 @@
-import React from 'react'
+import styles from './App.module.css'
 //Components
 import Footer from './components/Footer'
 import Header from './components/Header'
@@ -7,7 +7,9 @@ function App() {
   return (
     <div>
       <Header />
-      <h2>Conteúdo</h2>
+      <main className={styles.main}>
+        <h1>Conteúdo</h1>
+      </main>
       <Footer />
     </div>
   )

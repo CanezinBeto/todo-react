@@ -1,8 +1,9 @@
-import React from 'react'
+// Pata utilizar esta tecnica precisamos aplicar uma configuração
+import styles from './Header.module.css'
 
 const Header = () => {
   return (
-    <header>
+    <header className={styles.header}>
       <h1>React + TS Todo</h1>
     </header>
   )
