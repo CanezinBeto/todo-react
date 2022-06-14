@@ -4,6 +4,8 @@ import Footer from './components/Footer'
 import Header from './components/Header'
 import TaskForm from './components/TaskForm'
 import TaskList from './components/TaskList'
+// Interface
+import { ITask } from './interfaces/Task'
 
 function App() {
   return (
